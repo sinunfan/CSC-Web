@@ -1,0 +1,208 @@
+.topbar {
+	background-image:url('Image/00001.jpg');
+	background-size: 100% 100%;
+	border-bottom: ridge;
+	border-width: 5px;
+	border-color: orange;
+
+}
+
+.topbar1 {
+	margin-top: 10px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}	
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+body {
+	background-image:url('Image/00002.jpg');
+	font-family:sans-serif;
+	background-repeat:no-repeat ;
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+
+
+.body{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	background: white;
+	border: ridge;
+	border-width: 4px;
+	border-color: orange;
+
+	margin-bottom: 40px;
+}
+
+#MH1{
+	margin-left: 10px;
+	border: ridge;
+	border-width: 3px;
+	border-color: green;
+	float: left;
+}
+
+#Team{
+	font-size: 12pt;
+}
+
+h2{
+	margin-left: 10px;
+}
+
+#Pic4{
+	margin: 10px;
+}
+
+.input {
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+#HLink {
+	margin-top: 20px;
+}
+
+#Link1 {
+	color: yellow;
+}
+
+.left{
+    margin-top: 20px;
+    width: 400px;
+    display: inline-block;
+    float: left;        
+}
+
+.pg_body{
+    margin-top: 50px;
+    font-size: 18px;
+    margin-left: 200px;
+}
+
+.pg_body .menu{
+    width: 800px;
+    padding: 15px;    
+    float: left;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    width: 200px;
+    height: 25px;
+    border-radius: 6px;
+}
+
+input[type="password"]{
+    width: 200px;
+    height: 25px;
+    border-radius: 6px;
+}
+
+input[type="button"]{
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 12px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.kong{
+    margin-top: -54px;
+    margin-left: 200px;
+    float:left;
+    padding: 15px;
+}
+
+.img{
+    width: 50px;
+    height: 40px;
+}
+
+.can{
+    width: 1200px;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-left: 200px;
+    display: inline-block;
+}
+
+.tian{
+    color: red;
+    float: right;
+    font-size: 12px;
+    margin-right: -120px;
+	margin-top: -25px;
+}
+
+#table{
+	margin: 10px;
+}
+
+footer {
+	clear: left;
+	background-color: black;
+	text-align: center;
+}
+
+footer p{
+	color: gray;
+}

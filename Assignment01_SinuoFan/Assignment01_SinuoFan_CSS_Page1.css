@@ -1,0 +1,178 @@
+header, footer, nav, main, article, section, figure, 
+figcaption, h1, h2, h3, ul, li, body, div, p, img 
+{ 
+   	margin: 0;    
+   	padding: 0; 
+   	font-size: 100%;    
+
+} 
+body{
+	padding-left: 8em;
+	padding-right: 8em;
+	padding-bottom: 6em;
+   	font-family: sans-serif;
+}
+nav ul li{
+	text-align: right;
+	list-style: none;
+	display: inline;
+	margin: 1em;
+}
+#list1 {
+	background:black;
+	line-height: 3em;
+	text-align: right;
+	margin-bottom: 1em;
+}
+a:visited{
+	color: blue;
+}
+nav a:link{
+	color:gray;
+	text-decoration: none;
+}
+nav a:visited{
+	color:gray;
+	text-decoration: none;
+}
+#bigpic {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+h1{
+	font-size: 40pt;
+	margin-left:10pt;
+}
+#list2 {
+	background: lightgrey;
+	border: ridge;
+	line-height: 3em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+h2{
+	font-size: 24pt;
+	margin: 10pt;
+}
+p {
+	margin: 10pt;
+	line-height: 2em;
+}
+#money{
+	color: red;
+	font-weight: bold;
+}
+#table {
+	margin: 10px;
+	line-height: 30px;
+	font-size: 15pt;
+}
+#td1{
+	font-weight: bold;
+}
+#td2{
+	font-weight: bold;
+}
+#td3{
+	font-weight: bold;
+}
+#td4{
+	font-weight: bold;
+}
+#td5{
+	font-weight: bold;
+}
+#td6{
+	font-weight: bold;
+}
+h3{
+	font-size: 16pt;
+	margin: 20px;
+}
+.main{
+	border: ridge;
+	background: white;
+}
+
+#button { 
+	float: left;
+	border: ridge;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+#button1 {
+	font-weight: bold;
+    color: blue;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+}
+#button2 {
+	font-weight: bold;
+    color: blue;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#right{
+	position: relative;
+	font-size: 15pt;
+}
+#picture1{
+	float: left;
+	border: ridge;
+	text-align: center;
+	margin: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+#picture2{
+	float: left;
+	border: ridge;
+	text-align: center;
+	margin: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#picture3{
+	float: left;
+	border: ridge;
+	text-align: center;
+	margin: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#picture4{
+	float: left;
+	border: ridge;
+	text-align: center;
+	margin: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+footer {
+	clear: left;
+	background-color: black;
+	text-align: center;
+}
+footer p{
+	color: gray;
+}

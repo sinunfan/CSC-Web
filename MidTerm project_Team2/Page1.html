@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Midterm project Team2 </title>
+	<link rel="stylesheet" href="CSS/Page1.css" />
+	<link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+	<SCRIPT type=text/javascript src="js/Page1.js"></SCRIPT>
+	
+</head>
+<body>
+	<div class="topbar">
+		<div class="container">
+			<div class="topbar1">
+				<div class="row">
+					<div class="col-lg-2">
+						<a href="Index.html"><button type="button" class="btn btn-default btn-sm">
+		  				<span class="glyphicon glyphicon-home"></span> Game Forever
+						</button></a>
+					</div>
+					<div class="col-lg-4 col-lg-push-7">
+						<nav>
+							<ul class="list-inline">
+								<li>
+									<div class="dropdown"><button class="dropbtn"><span class="glyphicon glyphicon-th-list"></span> Guide</button>
+									<div class="dropdown-content">
+										<a href="javascript:scrollWindow1();">New</a>
+									    <a href="javascript:scrollWindow2();">Coming Soon</a>
+									  </div>
+									</div>
+									</a></li>
+								<li>|</li>
+								<li>
+								<a href="javascript:openLogin();"><button type="button" class="btn btn-default btn-sm">
+		  						<span class="glyphicon glyphicon-user"></span> sign in
+								</button></a></li>
+								<li>|</li>
+								<li><a href="Page2.html"><button type="button" class="btn btn-default btn-sm">
+		  						<span class="glyphicon glyphicon-plus"></span> register
+								</button></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+
+			<img src="image/00010.jpg"width="500" height="80" style=" opacity:0.8; filter:alpha(opacity=40);"/>
+			<h1 class="text-danger">Game Forever</h1>
+
+			<div class="row">
+				<p class="col-lg-4"><a href="#">About us</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="body1">
+		<h2 class="text-info"><a href="#">Monster Hunter</a></h2>
+			<div class="row">
+				<div class="col-lg-12">
+					<p>
+						<img id="MH1" src="image/00001.jpg"width="600" height="400"/>
+					</p>
+					<h3 class="col-lg-4 col-lg-push-1">Team up & Hunt</h3>
+					<div id="Team">
+						<p class="col-lg-4 col-lg-push-1">
+							Monster Hunter: World sees players gear up to venture on quests to battle against fearsome monsters, progressively improving their hunting abilities as they play. Loot collected from fallen foes can be used to create new equipment and armor upgrades as players seamlessly move across map areas that comprise the living ecosystems. The landscape and its diverse inhabitants play a critical role as players strategically use the surrounding environment to their advantage. Hunters must use their cunning and abilities to survive the intense and evolving fights as they battle to become the ultimate hunter!.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="container">
+				<div class="body2">
+				<h2 class="text-info">Monster Type</h2>
+					<div class="row">
+						<div class="col-lg-12">
+							<p>
+								<nav>
+									<ul class="list-inline">
+										<h3 class="text-info">Nergigante</h3>
+										<li id="gif1"><img src="image/00012.gif"></li>
+										<li id="gif1"><img src="image/00013.gif"></li>
+									</ul>
+									<br>
+									<p style="font-size: 16pt; margin-left: 20px;">ergigante is a Large Monster in Monster Hunter World (MHW). ネルギガンテ (Nerugigante) in Japanese. </p>
+									<br>
+									<ul class="list-inline">
+										<h3 class="text-info">Anjanath</h3>
+										<li id="gif2"><img src="image/00014.gif"></li>
+										<li id="gif2"><img src="image/00015.gif"></li>
+									</ul>
+									<br>
+									<p style="font-size: 16pt; margin-left: 20px;">Anjanath is a Large Monster in Monster Hunter World (MHW). アンジャナフ (蛮顎竜) in Japanese.</p>
+								</nav>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Window">
+				<div id=win style="display:none; POSITION:absolute; left:50%; top:50%; width:600px; height:400px; margin-left:-300px; margin-top:50px; border:10px ridge orange; background-image: url('image/00011.jpg'); text-align:center;">
+					<h3 style="color: yellow;">Sign in</h3>
+					<br>
+					<div class="input">
+						<p>
+							<table style="text-align: center;" cellspacing="200%">
+								<tr>
+									<td><label style="color: yellow;">User ID</label></td>
+									<td width="150px">
+									</td>
+								</tr>
+								<tr>
+									<td><input type="First Name" name="First Name"/></td>
+									<td width="150px">
+									</td>
+								</tr>
+								<tr>
+									<td><label style="color: yellow;">Password</label></td>
+								</tr>
+								<tr>
+									<td><input type="Last Name" name="Last Name"></td>
+								</tr>
+							</table>
+						</p>
+					</div>
+					<a href="#"><button type="button" class="btn btn-default btn-sm">Login</button></a>
+					<a href="javascript:closeLogin();"><button type="button" class="btn btn-default btn-sm">close</button></a>
+					<br>
+					<div id="HLink">
+						<a href="#" id="Link1">Don't have an acount?</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<footer>
+		<p>All images are copyright to their owners. This is just a hypothetical site &copy; 2018 Copyright MHW, </p>
+	</footer>
+</body>
+</html>
